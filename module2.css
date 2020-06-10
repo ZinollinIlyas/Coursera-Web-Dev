@@ -1,0 +1,172 @@
+
+body{
+    background: url("menu_background.webp")center no-repeat fixed;
+    background-size: cover;
+}
+
+.menu{
+    text-align: center;
+    font-family: cursive;
+}
+
+
+.food-description{
+    clear: both;
+}
+
+
+@media (min-width: 992px){ 
+    .container{
+       border: 2px black solid;
+       background-color: #201f2081;
+       width: 30%;
+       float: right;
+       box-sizing: border-box;
+       margin-top: 100px;
+       margin-right: 3%;
+       position: relative;
+    
+    }
+    
+    
+    #chicken{
+        float: right;
+        border: 2px black solid;
+        border-radius: 3px;
+        font-family: fantasy;
+        background-color: #0567e7;
+        width: 25%;
+        text-align: center;
+        overflow: hidden;
+    }
+    #beef{
+        float: right;
+        border: 2px black solid;
+        border-radius: 3px;
+        font-family: fantasy;
+        background-color: #e76b05;
+        width: 25%;
+        text-align: center;
+    
+    }
+    #sushi{
+        float:right;
+        border: 2px black solid;
+        border-radius: 3px;
+        font-family: fantasy;
+        background-color: #05e736;
+        width: 25%;
+        text-align: center;
+    
+    }
+    
+    .food-description{
+        overflow: hidden;
+    }
+
+ }
+
+ @media (min-width: 768px) and (max-width: 991px){
+    .container{
+        border: 2px black solid;
+        background-color: #201f2081;
+        width: 46%;
+        float: right;
+        box-sizing: border-box;
+        margin-top: 50px;
+        margin-right: 3%;
+        position: relative;
+     
+     }
+
+     #sushi_container{
+         width: 100%;
+         margin-right: 0;
+     }
+     
+     
+     #chicken{
+         float: right;
+         border: 2px black solid;
+         border-radius: 3px;
+         font-family: fantasy;
+         background-color: #0567e7;
+         width: 25%;
+         text-align: center;
+         overflow: hidden;
+     }
+     #beef{
+         float: right;
+         border: 2px black solid;
+         border-radius: 3px;
+         font-family: fantasy;
+         background-color: #e76b05;
+         width: 25%;
+         text-align: center;
+     
+     }
+     #sushi{
+         float:right;
+         border: 2px black solid;
+         border-radius: 3px;
+         font-family: fantasy;
+         background-color: #05e736;
+         width: 25%;
+         text-align: center;
+     
+     }
+     
+     .food-description{
+         overflow: hidden;
+     }
+    }
+    @media (max-width: 767px){
+        .container{
+            border: 2px black solid;
+            background-color: #201f2081;
+            width: 100%;
+            float: right;
+            box-sizing: border-box;
+            margin-top: 50px;
+            position: relative;
+         
+         }
+         
+         
+         #chicken{
+             float: right;
+             border: 2px black solid;
+             border-radius: 3px;
+             font-family: fantasy;
+             background-color: #0567e7;
+             width: 25%;
+             text-align: center;
+             overflow: hidden;
+         }
+         #beef{
+             float: right;
+             border: 2px black solid;
+             border-radius: 3px;
+             font-family: fantasy;
+             background-color: #e76b05;
+             width: 25%;
+             text-align: center;
+         
+         }
+         #sushi{
+             float:right;
+             border: 2px black solid;
+             border-radius: 3px;
+             font-family: fantasy;
+             background-color: #05e736;
+             width: 25%;
+             text-align: center;
+         
+         }
+         
+         .food-description{
+             overflow: hidden;
+         }
+
+
+    }
